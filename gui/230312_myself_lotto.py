@@ -20,7 +20,7 @@ def lotto():
     print("당첨번호 {}, 보너스 번호 {}".format(num_list, bonus))
 
 btn = Button(win)
-btn.config(text = "무엇이든 물어보세요")
+btn.config(text = "회차번호 입력")
 btn.config(command = lotto)
 btn.pack()
 
